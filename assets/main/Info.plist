@@ -15,11 +15,11 @@
     <key>UISupportsDocumentBrowser-macos</key>
     <false/>
     <key>DTPlatformVersion</key>
-    <string>18.1</string>
+    <string>26.4</string>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen</string>
     <key>DTSDKBuild</key>
-    <string>22B74</string>
+    <string>23E237</string>
     <key>UIStatusBarStyle</key>
     <string>UIStatusBarStyleBlackOpaque</string>
     <key>AppIdentifierPrefix</key>
@@ -643,7 +643,7 @@
       <string>ProtoMono/ProtoMono-Regular.otf</string>
     </array>
     <key>DTXcodeBuild</key>
-    <string>16B40</string>
+    <string>17E192</string>
     <key>CADisableMinimumFrameDurationOnPhone</key>
     <true/>
     <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
@@ -670,48 +670,48 @@
       <string>tesla</string>
       <string>twitch</string>
       <string>youtube</string>
-      <string>bluesky</string>
+      <string>tiktok</string>
+      <string>discord</string>
+      <string>slack</string>
       <string>com.amazon.mobile.shopping</string>
       <string>chatgpt</string>
       <string>comgooglemaps</string>
       <string>xai-grok</string>
-      <string>duolingo</string>
+      <string>gemini</string>
       <string>fb</string>
       <string>fb-messenger</string>
-      <string>fbauth</string>
-      <string>flickr</string>
       <string>github</string>
-      <string>gemini</string>
       <string>google</string>
-      <string>googleassistant</string>
-      <string>googlecalendar</string>
-      <string>googledocs</string>
-      <string>googlechrome</string>
-      <string>googledrive</string>
+      <string>kraken</string>
       <string>googlegmail</string>
-      <string>googlemaps</string>
-      <string>googletranslate</string>
-      <string>googlevoice</string>
       <string>hulu</string>
       <string>instagram</string>
       <string>instagram-stories</string>
-      <string>lightning</string>
       <string>line</string>
       <string>linkedin</string>
+      <string>ms-outlook</string>
       <string>nflx</string>
-      <string>paypal</string>
-      <string>perplexity-app</string>
       <string>pinterest</string>
-      <string>soundcloud</string>
       <string>tg</string>
       <string>viber</string>
-      <string>vimeo</string>
+      <string>weixin</string>
+      <string>zalo</string>
+      <string>robinhood</string>
+      <string>phantom</string>
+      <string>ftmm</string>
+      <string>com.starlink.mobile</string>
       <string>yelp</string>
       <string>temu</string>
-      <string>shopify</string>
-      <string>wayfairapp</string>
+      <string>wstrade</string>
       <string>ymail</string>
-      <string>ms-outlook</string>
+      <string>shopapp</string>
+      <string>reddit</string>
+      <string>csretail</string>
+      <string>etrade</string>
+      <string>fidelity</string>
+      <string>twsapi</string>
+      <string>sheinlink</string>
+      <string>zillow</string>
     </array>
     <key>CFBundleSignature</key>
     <string>????</string>
@@ -1308,7 +1308,7 @@
       </dict>
     </dict>
     <key>TWBuildGitSHA</key>
-    <string/>
+    <string></string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>iPhoneOS</string>
@@ -1410,6 +1410,10 @@
       <dict>
         <key>SKAdNetworkIdentifier</key>
         <string>s39g8k73mm.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>wg4vff78zm.skadnetwork</string>
       </dict>
       <dict>
         <key>SKAdNetworkIdentifier</key>
@@ -1517,7 +1521,7 @@
       </dict>
       <dict>
         <key>SKAdNetworkIdentifier</key>
-        <string>Tl55sbb4fm.skadnetwork</string>
+        <string>tl55sbb4fm.skadnetwork</string>
       </dict>
       <dict>
         <key>SKAdNetworkIdentifier</key>
@@ -1535,13 +1539,33 @@
         <key>SKAdNetworkIdentifier</key>
         <string>3qcr597p9d.skadnetwork</string>
       </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>44jx6755aq.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>k674qkevps.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>97r2b46745.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>c3frkrj4fj.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>kbmxgpxpgc.skadnetwork</string>
+      </dict>
     </array>
     <key>CFBundleName</key>
     <string>Twitter</string>
     <key>CFBundleShortVersionString</key>
-    <string>11.35</string>
+    <string>12.28</string>
     <key>TWBuildTime</key>
-    <string>2025-10-29T01:33:22Z</string>
+    <string>2026-09-19T00:40:59Z</string>
     <key>UIBackgroundModes</key>
     <array>
       <string>audio</string>
@@ -1591,20 +1615,22 @@
     <string>Twitter uses the local network to discover Cast-enabled devices on your WiFi network.</string>
     <key>NSSpeechRecognitionUsageDescription</key>
     <string>Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.</string>
+    <key>UIDesignRequiresCompatibility</key>
+    <true/>
     <key>UIPrerenderedIcon</key>
     <true/>
-    <key>DTAppStoreToolsBuild</key>
-    <string>17B54</string>
     <key>UIRequiresPersistentWiFi</key>
     <true/>
     <key>FirebaseScreenReportingEnabled</key>
     <false/>
     <key>BuildMachineOSBuild</key>
-    <string>24D70</string>
+    <string>25E246</string>
     <key>NSLocationUsageDescription</key>
     <string>Enjoy Twitter tailored to your location.</string>
     <key>TWSharedApplicationGroupIdentifier</key>
     <string>group.com.atebits.Tweetie2</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>27A261</string>
     <key>DTPlatformName</key>
     <string>iphoneos</string>
     <key>NSCalendarsUsageDescription</key>
@@ -1652,14 +1678,9 @@
     <key>TWSharedKeychainOAuthIdentifier</key>
     <string>8248RGMF2D.com.atebits.Tweetie2.oauth</string>
     <key>DTSDKName</key>
-    <string>iphoneos18.1</string>
+    <string>iphoneos26.4</string>
     <key>TWTrainType</key>
     <string>dev</string>
-    <key>NSBonjourServices</key>
-    <array>
-      <string>_googlecast._tcp</string>
-      <string>_DEFBC2D3._googlecast._tcp</string>
-    </array>
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoads</key>
@@ -1698,11 +1719,11 @@
       <true/>
     </dict>
     <key>DTPlatformBuild</key>
-    <string>22B74</string>
+    <string>23E237</string>
     <key>NSContactsUsageDescription</key>
-    <string>We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.</string>
+    <string>We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on Twitter.</string>
     <key>DTXcode</key>
-    <string>1610</string>
+    <string>2640</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Allow access to share photos from your camera roll.</string>
     <key>UISupportedInterfaceOrientations</key>
