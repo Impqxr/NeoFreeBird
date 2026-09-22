@@ -14,7 +14,7 @@ on:
         type: string
       target_version:
         description: "Target iOS Version for Theos"
-        default: "14.0"
+        default: "15.0"
         required: true
         type: string
       repo_commit:
@@ -35,7 +35,7 @@ concurrency:
 jobs:
   build-and-inject:
     name: Build NeoFreeBird
-    runs-on: macos-15
+    runs-on: macos-15-intel
     permissions:
       contents: write
 
@@ -43,7 +43,7 @@ jobs:
       - name: Checkout main repo
         uses: actions/checkout@v4
         with:
-          repository: NeoFreeBird/app
+          repository: app
           path: main
           ref: ${{ inputs.repo_commit || github.ref }}
           submodules: recursive
